@@ -33,6 +33,6 @@ def kesha_maker (array)
 end
 
 def find_a (array)
-  array.find_all? |a|
+  array.find_all |a|
   a.start_with?("a")
 end
