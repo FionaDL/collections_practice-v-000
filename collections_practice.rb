@@ -43,3 +43,9 @@ def sum_array (array)
     a + b
   end
 end
+
+def add_s (array)
+  array.map do |a|
+  a"#{s}"
+end
+end
