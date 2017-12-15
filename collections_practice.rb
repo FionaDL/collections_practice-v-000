@@ -45,8 +45,8 @@ def sum_array (array)
 end
 
 def add_s (array)
-  array.map do |a|
-  new_array = "#{a}s"
+  new_array = array.map do |a|
+  "#{a}s"
 end
  new_array[1].chop
 end
