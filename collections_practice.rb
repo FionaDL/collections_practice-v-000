@@ -37,3 +37,15 @@ def find_a (array)
   a.start_with?("a")
 end
 end
+
+def sum_array (array)
+  array.inject do |a, b|
+    a + begin
+  end
+end
+
+
+  
+    rescue ExceptionName
+      
+    end
