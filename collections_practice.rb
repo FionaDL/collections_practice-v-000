@@ -36,4 +36,3 @@ def find_a (array)
   array.find_all? |a|
   a.start_with?("a")
 end
-end
