@@ -44,9 +44,13 @@ def sum_array (array)
   end
 end
 
-def add_s (array)
-  new_array = array.map do |a|
-  "#{a}s"
+def add_s(array)
+  array.collect do |a|
+    if array[1] == a
+      a
+    else
+      "#{a}s"
+    end
+  end
 end
- new_array[1].chop
-end
+
