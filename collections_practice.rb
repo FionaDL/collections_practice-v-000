@@ -40,12 +40,7 @@ end
 
 def sum_array (array)
   array.inject do |a, b|
-    a + begin
+    a + b
   end
 end
 
-
-  
-    rescue ExceptionName
-      
-    end
